@@ -1,0 +1,12 @@
+
+select[readonly] {
+  background: #eee; /*Simular campo inativo*/
+  pointer-events: none;
+  touch-action: nonei;
+}
+
+
+
+table tfoot {  /*Esto es iMPORTANTE PORQUE EN DATATABLES EVITA QUE EL FFOTER ESTE NE CADA UNA DE LAS PAGINAS*/
+    display: table-row-group;    
+}
